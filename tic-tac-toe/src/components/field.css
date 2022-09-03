@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.field {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  flex-wrap: wrap;
+  width: 60vh;
+  height: 50%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.gameField {
+  height: 18vh;
+  width: 18vh;
+  margin: 1vh;
+  background-color: #cdcfd1;
+}

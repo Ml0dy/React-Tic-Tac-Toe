@@ -1,13 +1,8 @@
 import React, { useState } from "react"
 
-const Player = () => {
-  const [player, setPlayer] = useState("X")
-
-  const handleChangePlayer = () =>
-    player === "X" ? setPlayer("O") : setPlayer("X")
-
+const Player = ({ handleChange, player }) => {
   return (
-    <div onClick={handleChangePlayer}>
+    <div className="playerMove" onClick={handleChange}>
       <p>Ruch gracza: {player}</p>
     </div>
   )
